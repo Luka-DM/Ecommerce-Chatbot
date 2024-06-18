@@ -1,1 +1,1 @@
-This is a simple chatbot that can communicate with the customer and offer products from the database based on their request.
+These are codes for a chatbot for an ecommerce website. Chatbot_Simple.ipynb is a simpler version, it doesn't understand complex language and only works when the user inputs a name for the product they're looking for (e.g., golf ball, lip balm, skateboard, toy car, etc.). Chatbot_Test.ipynb is supposed to work with more complex language however this is my first time doing something like this so it needs refining.
