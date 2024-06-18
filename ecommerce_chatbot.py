@@ -64,4 +64,4 @@ user_input = st.text_input('You:', '')
 
 if user_input:
     response = chatbot_response(user_input)
-    st.text_area('Bot:', value=response, height=200, max_chars=None, key=None)"""
+    st.text_area('Bot:', value=response, height=200, max_chars=None, key=None)
