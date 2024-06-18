@@ -1,4 +1,3 @@
-!pip install streamlit
 !python -m spacy download en_core_web_sm
 import pandas as pd
 import nltk
