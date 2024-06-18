@@ -72,4 +72,4 @@ with open(file_path, 'w') as f:
     f.write(code)
 
 # Run the Streamlit app
-!streamlit run '/content/drive/MyDrive/ecommerce_chatbot.py'
+streamlit run '/content/drive/MyDrive/ecommerce_chatbot.py'
