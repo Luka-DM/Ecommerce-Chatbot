@@ -15,7 +15,6 @@ data = pd.read_csv('/content/drive/MyDrive/data.csv')
 # Display the first few rows of the dataset to understand its structure
 data.head()
 
-code = """
 # Load a pre-trained NLP model
 nlp = spacy.load('en_core_web_sm')
 
@@ -66,10 +65,3 @@ user_input = st.text_input('You:', '')
 if user_input:
     response = chatbot_response(user_input)
     st.text_area('Bot:', value=response, height=200, max_chars=None, key=None)"""
-
-file_path = '/content/drive/MyDrive/ecommerce_chatbot.py'
-with open(file_path, 'w') as f:
-    f.write(code)
-
-# Run the Streamlit app
-streamlit run '/content/drive/MyDrive/ecommerce_chatbot.py'
